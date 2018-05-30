@@ -20,7 +20,7 @@ from rest_framework import routers
 from django.core.urlresolvers import reverse
 from backend import views
 
-router = routers.DefaultRouter()
+router = routers.SimpleRouter()
 router.register(r'menu', views.MenuViewSet)
 
 urlpatterns = [

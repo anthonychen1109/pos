@@ -8,3 +8,4 @@ from .serializers import MenuSerializer
 class MenuViewSet(viewsets.ModelViewSet):
     queryset = Menu.objects.all()
     serializer_class = MenuSerializer
+    lookup_field = 'item_name'

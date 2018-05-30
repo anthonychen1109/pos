@@ -3,7 +3,7 @@ import Menu from '../containers/menu';
 
 const App = () => (
   <div>
-    <Menu />
+    test
   </div>
 )
 
